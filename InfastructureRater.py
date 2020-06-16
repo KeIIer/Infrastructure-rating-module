@@ -779,7 +779,7 @@ def add_rate(address):
 client = MongoClient('mongodb+srv://dbKeller:dbKeller@cluster0-jkn6r.mongodb.net/test?retryWrites=true&w=majority')
 db = client.get_database('Immovables')
 collection = db.Immovable_object
-API_KEY = 'AIzaSyDF4aF0P-Vcdy7-DytX0XDkufr6gXojCQA'  # Ключ для работы с Google API
+API_KEY = '*************************************'  # Ключ для работы с Google API
 objects = numpy.zeros(5)
 distance = 0
 iterator = 0
@@ -790,7 +790,7 @@ using_types = ['Образование', 'Лечение', 'Транспорт',
                'Продукты питания', 'Деньги']
 
 # =================================================== Wikimapia ====================================================== #
-Wikimapia_API_KEY_1 = '3601B1B5-44D1ED18-798B3F8D-BA13406A-CC91976E-8F2B8C45-8CAEA92B-1AC1D876'
+Wikimapia_API_KEY_1 = '********************************************************************'
 
 inverse_geocode_gmaps_request = \
     'https://maps.googleapis.com/maps/api/geocode/json?latlng={},{}&key={}&language=ru'
