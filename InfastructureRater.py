@@ -776,7 +776,7 @@ def add_rate(address):
 # ===================================================== Main ========================================================= #
 
 # ===================================================== Google ======================================================= #
-client = MongoClient('mongodb+srv://dbKeller:dbKeller@cluster0-jkn6r.mongodb.net/test?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://********************************/test?retryWrites=true&w=majority')
 db = client.get_database('Immovables')
 collection = db.Immovable_object
 API_KEY = '*************************************'  # Ключ для работы с Google API
